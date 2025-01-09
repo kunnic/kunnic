@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @kunnic
-- 👀 I’m interested in 
+- 👀 I’m interested in Machine Learning and Computer Vision
 - 🌱 I’m currently learning Computer Science
 - 📫 How to reach me: Multiple method at kunnic.github.io/more_info
 
