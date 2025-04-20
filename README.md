@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @kunnic
 - 👀 I’m interested in Machine Learning/Deep Learning and Computer Vision
-- 🌱 I’m currently learning Computer Science
+- 🌱 I’m currently learning Deep Learning
 - 📫 How to reach me: Multiple method at kunnic.github.io/more_info
 
 <!---
