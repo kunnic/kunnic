@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @kunnic
-- 👀 I’m interested in Machine Learning/Deep Learning and Computer Vision
+- 👀 I’m interested in Machine Learning/Deep Learning, CV and NLP.
 - 🌱 I’m currently learning Deep Learning
-- 📫 How to reach me: Multiple method at kunnic.github.io/more_info
 
 <!---
 kunnic/kunnic is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
