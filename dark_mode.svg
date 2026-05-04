@@ -62,6 +62,7 @@
     <tspan x="640" dy="1.4em" fill="#565f89">──────────────────────────────────────────────────</tspan>
 
     <!-- System block -->
+<<<<<<< HEAD
     <tspan x="640" dy="1.6em"><tspan fill="#7dcfff" font-weight="bold">  OS</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="os_dots" fill="#414868" xml:space="preserve"> ............ </tspan><tspan id="os_data" fill="#c0caf5" xml:space="preserve">Windows 11 LTSC, Fedora 44 Sway</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#7dcfff" font-weight="bold">  Uptime</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="age_dots" fill="#414868" xml:space="preserve"> ............ </tspan><tspan id="age_data" fill="#c0caf5" xml:space="preserve">21 years, 6 months, 17 days</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#7dcfff" font-weight="bold">  Host</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="host_dots" fill="#414868" xml:space="preserve"> ................. </tspan><tspan id="host_data" fill="#c0caf5" xml:space="preserve">Ton Duc Thang University</tspan></tspan>
@@ -75,17 +76,41 @@
     <tspan x="640" dy="2.0em" fill="#565f89">─ Interests ──────────────────────────────────────</tspan>
     <tspan x="640" dy="1.6em"><tspan fill="#e0af68" font-weight="bold">  Research</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="research_dots" fill="#414868" xml:space="preserve"> ........... </tspan><tspan id="research_data" fill="#c0caf5" xml:space="preserve">CV, ML, Sentiment Analysis</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#e0af68" font-weight="bold">  Hobbies</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="hobbies_dots" fill="#414868" xml:space="preserve"> ........... </tspan><tspan id="hobbies_data" fill="#c0caf5" xml:space="preserve">Reading, Psychology, Coding</tspan></tspan>
+=======
+    <tspan x="640" dy="1.6em" fill="#7dcfff" font-weight="bold">  OS</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="os_dots" fill="#414868">..............</tspan><tspan id="os_data" fill="#c0caf5">Windows 11, Ubuntu 22.04</tspan>
+    <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  Uptime</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="age_dots" fill="#414868">.........</tspan><tspan id="age_data" fill="#c0caf5">23 years, 4 months, 3 days</tspan>
+    <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  Host</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="host_dots" fill="#414868">............</tspan><tspan id="host_data" fill="#c0caf5">Ton Duc Thang University</tspan>
+    <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  Kernel</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="kernel_dots" fill="#414868">..........</tspan><tspan id="kernel_data" fill="#c0caf5">Computer Science Student</tspan>
+    <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  IDE</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="ide_dots" fill="#414868">.............</tspan><tspan id="ide_data" fill="#c0caf5">VS Code, PyCharm, Jupyter</tspan>
+
+    <tspan x="640" dy="2.0em" fill="#565f89">─ Languages ───────────────────────</tspan>
+    <tspan x="640" dy="1.6em" fill="#9ece6a" font-weight="bold">  Programming</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="lang_prog_dots" fill="#414868">.....</tspan><tspan id="lang_prog_data" fill="#c0caf5">Python, JavaScript, C++</tspan>
+    <tspan x="640" dy="1.4em" fill="#9ece6a" font-weight="bold">  Spoken</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="lang_spoken_dots" fill="#414868">..........</tspan><tspan id="lang_spoken_data" fill="#c0caf5">Vietnamese, English</tspan>
+
+    <tspan x="640" dy="2.0em" fill="#565f89">─ Interests ───────────────────────</tspan>
+    <tspan x="640" dy="1.6em" fill="#e0af68" font-weight="bold">  Research</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="research_dots" fill="#414868">........</tspan><tspan id="research_data" fill="#c0caf5">CV, ML, Sentiment Analysis</tspan>
+    <tspan x="640" dy="1.4em" fill="#e0af68" font-weight="bold">  Hobbies</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="hobbies_dots" fill="#414868">.........</tspan><tspan id="hobbies_data" fill="#c0caf5">Reading, Psychology, Coding</tspan>
+>>>>>>> 8685e526a524b1550264d5b80b302724d01d2c90
 
     <tspan x="640" dy="2.0em" fill="#565f89">─ Contact ────────────────────────────────────────</tspan>
     <tspan x="640" dy="1.6em"><tspan fill="#f7768e" font-weight="bold">  Email</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="email_dots" fill="#414868" xml:space="preserve"> ......... </tspan><tspan id="email_data" fill="#c0caf5" xml:space="preserve">official.nguyenduchuy@gmail.com</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#f7768e" font-weight="bold">  GitHub</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="github_dots" fill="#414868" xml:space="preserve"> ................................ </tspan><tspan id="github_data" fill="#c0caf5" xml:space="preserve">@kunnic</tspan></tspan>
 
+<<<<<<< HEAD
     <tspan x="640" dy="2.0em" fill="#565f89">─ GitHub Stats ───────────────────────────────────</tspan>
     <tspan x="640" dy="1.6em"><tspan fill="#bb9af7" font-weight="bold">  Repos</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="repo_dots" fill="#414868" xml:space="preserve"> .................... </tspan><tspan id="repo_data" fill="#c0caf5" xml:space="preserve">21</tspan><tspan fill="#565f89"> {Contributed: </tspan><tspan id="contrib_data" fill="#c0caf5" xml:space="preserve">22</tspan><tspan fill="#565f89">}</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#bb9af7" font-weight="bold">  Stars</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="star_dots" fill="#414868" xml:space="preserve"> ....................................... </tspan><tspan id="star_data" fill="#c0caf5" xml:space="preserve">0</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#bb9af7" font-weight="bold">  Commits</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="commit_dots" fill="#414868" xml:space="preserve"> .................................... </tspan><tspan id="commit_data" fill="#c0caf5" xml:space="preserve">62</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#bb9af7" font-weight="bold">  Followers</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="follower_dots" fill="#414868" xml:space="preserve"> ................................... </tspan><tspan id="follower_data" fill="#c0caf5" xml:space="preserve">0</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#bb9af7" font-weight="bold">  Lines of Code</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="loc_dots" fill="#414868" xml:space="preserve"> ........ </tspan><tspan id="loc_data" fill="#c0caf5" xml:space="preserve">19,401</tspan><tspan fill="#565f89"> (</tspan><tspan id="loc_add" fill="#9ece6a" xml:space="preserve">+21,061</tspan><tspan fill="#565f89">, </tspan><tspan id="loc_del" fill="#f7768e" xml:space="preserve">-1,660</tspan><tspan fill="#565f89">)</tspan></tspan>
+=======
+    <tspan x="640" dy="2.0em" fill="#565f89">─ GitHub Stats ────────────────────</tspan>
+    <tspan x="640" dy="1.6em" fill="#bb9af7" font-weight="bold">  Repos</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="repo_dots" fill="#414868">...........</tspan><tspan id="repo_data" fill="#c0caf5">23</tspan><tspan fill="#565f89"> {Contributed: </tspan><tspan id="contrib_data" fill="#c0caf5">24</tspan><tspan fill="#565f89">}</tspan>
+    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Stars</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="star_dots" fill="#414868">...........</tspan><tspan id="star_data" fill="#c0caf5">0</tspan>
+    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Commits</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="commit_dots" fill="#414868">.........</tspan><tspan id="commit_data" fill="#c0caf5">130</tspan>
+    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Followers</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="follower_dots" fill="#414868">.......</tspan><tspan id="follower_data" fill="#c0caf5">0</tspan>
+    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Lines of Code</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="loc_dots" fill="#414868">...</tspan><tspan id="loc_data" fill="#c0caf5">966,091</tspan><tspan fill="#565f89"> (</tspan><tspan id="loc_add" fill="#9ece6a">1,097,699</tspan><tspan fill="#565f89">, </tspan><tspan id="loc_del" fill="#f7768e">131,608</tspan><tspan fill="#565f89">)</tspan>
+>>>>>>> 8685e526a524b1550264d5b80b302724d01d2c90
 
     <!-- Color palette swatches -->
     <tspan x="640" dy="2.4em" font-size="18">
