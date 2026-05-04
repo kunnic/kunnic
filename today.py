@@ -13,15 +13,30 @@ import hashlib
 
 HEADERS = {'authorization': 'token ' + os.environ['ACCESS_TOKEN']}
 USER_NAME = 'kunnic'
-BIRTHDAY = datetime.datetime(2003, 1, 1)  # ⚠️ ĐỔI ngày sinh thật của bạn vào đây
+BIRTHDAY = datetime.datetime(2004, 10, 17)
+
+# ⚠️ Các repo bị loại khỏi LOC count (dataset, generated files, v.v.)
+EXCLUDED_REPOS = {
+    'kunnic/nlp-tdtu',         # 810k dòng — chắc chắn là dataset
+    'kunnic/song-corpus',      # 153k dòng — corpus dataset
+    'kunnic/kunnic.com',       # 30k dòng — generated assets
+    'kunnic/nlp-final',        # 22k dòng — dataset
+    'kunnic/three-kingdom',    # 20k dòng — kiểm tra lại nếu là code thật
+    'kunnic/pyspark-pcy-algorithm',  # 40k dòng — kiểm tra lại
+}
+
 QUERY_COUNT = {
     'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0,
     'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0
 }
 
+# Tổng độ rộng của cột stats (label + ":" + dots + value), tính bằng số ký tự.
+# Tăng lên nếu muốn cột rộng hơn, giảm xuống nếu chật.
+TOTAL_W = 50
+
 
 # ==========================================
-# 1. CÁC HÀM FETCH GITHUB API (từ code gốc của Andrew)
+# 1. CÁC HÀM FETCH GITHUB API
 # ==========================================
 
 def daily_readme(birthday):
@@ -166,12 +181,21 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
 
     cache_comment = data[:comment_size]
     data = data[comment_size:]
+
     for index in range(len(edges)):
+        repo_name_full = edges[index]['node']['nameWithOwner']
+
+        # ===== LOẠI repo trong blacklist =====
+        if repo_name_full in EXCLUDED_REPOS:
+            data[index] = data[index].split()[0] + ' 0 0 0 0\n'
+            continue
+        # =====================================
+
         repo_hash, commit_count, *__ = data[index].split()
-        if repo_hash == hashlib.sha256(edges[index]['node']['nameWithOwner'].encode('utf-8')).hexdigest():
+        if repo_hash == hashlib.sha256(repo_name_full.encode('utf-8')).hexdigest():
             try:
                 if int(commit_count) != edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']:
-                    owner, repo_name = edges[index]['node']['nameWithOwner'].split('/')
+                    owner, repo_name = repo_name_full.split('/')
                     loc = recursive_loc(owner, repo_name, data, cache_comment)
                     data[index] = (repo_hash + ' '
                                    + str(edges[index]['node']['defaultBranchRef']['target']['history']['totalCount'])
@@ -246,7 +270,7 @@ def query_count(funct_id):
 
 
 # ==========================================
-# 2. ASCII PORTRAIT + SVG OVERWRITE (code của bạn, đã sửa bug)
+# 2. ASCII PORTRAIT + SVG OVERWRITE
 # ==========================================
 
 def load_ascii_portrait(path="ascii_portrait.txt"):
@@ -276,22 +300,37 @@ def inject_ascii_portrait(root, rows, prefix="ascii_row_"):
 
 
 def justify_format(root, element_id, new_text, length=0):
+    """Điền value, đồng thời tự fill dot leader vào thẻ dots tương ứng
+    sao cho TỔNG (value + dots) = length ký tự → value căn phải."""
     if isinstance(new_text, int):
         new_text = f"{new_text:,}"
     new_text = str(new_text)
+    
     find_and_replace(root, element_id, new_text)
+    
     just_len = max(0, length - len(new_text))
-    if just_len <= 2:
-        dot_string = {0: '', 1: ' ', 2: '. '}[just_len]
+    
+    if just_len == 0:
+        dot_string = ''
+    elif just_len == 1:
+        dot_string = ' '
+    elif just_len == 2:
+        dot_string = '..'
     else:
-        dot_string = ' ' + ('.' * just_len) + ' '
-    find_and_replace(root, f"{element_id}_dots", dot_string)
+        dot_string = ' ' + ('.' * (just_len - 2)) + ' '
+
+    dots_id = element_id.replace('_data', '') + '_dots'
+    find_and_replace(root, dots_id, dot_string)
 
 
 def find_and_replace(root, element_id, new_text):
     element = root.find(f".//*[@id='{element_id}']")
     if element is not None:
         element.text = new_text
+        # ===== THÊM DÒNG NÀY =====
+        # Force giữ nguyên whitespace cho element này (quan trọng cho dot leader)
+        element.set("{http://www.w3.org/XML/1998/namespace}space", "preserve")
+        # =========================
 
 
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
@@ -299,29 +338,47 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
     tree = etree.parse(filename)
     root = tree.getroot()
 
-    # === Stats từ GitHub API ===
-    justify_format(root, 'commit_data',   commit_data,   22)
-    justify_format(root, 'star_data',     star_data,     14)
-    justify_format(root, 'repo_data',     repo_data,      6)
-    justify_format(root, 'contrib_data',  contrib_data)
-    justify_format(root, 'follower_data', follower_data, 10)
-    justify_format(root, 'loc_data',      loc_data[2],    9)
-    justify_format(root, 'loc_add',       loc_data[0])
-    justify_format(root, 'loc_del',       loc_data[1],   7)
+    # ----- Helper: tự tính length cho mỗi dòng dựa trên label -----
+    # length = TOTAL_W - len(label) - 1 (ký tự ":" sau label)
+    def J(elem_id, label, value):
+        length = TOTAL_W - len(label) - 1
+        justify_format(root, elem_id, value, length)
 
     # === Thông tin cá nhân tĩnh ===
-    justify_format(root, 'age_data',         age_data,                          27)
-    justify_format(root, 'os_data',          'Windows 11, Ubuntu 22.04',        24)
-    justify_format(root, 'host_data',        'Ton Duc Thang University',        24)
-    justify_format(root, 'kernel_data',      'Computer Science Student',        24)
-    justify_format(root, 'ide_data',         'VS Code, PyCharm, Jupyter',       25)
-    justify_format(root, 'lang_prog_data',   'Python, JavaScript, C++',         23)
-    justify_format(root, 'lang_spoken_data', 'Vietnamese, English',             19)
-    justify_format(root, 'research_data',    'CV, ML, Sentiment Analysis',      26)
-    justify_format(root, 'hobbies_data',     'Reading, Psychology, Coding',     27)
-    justify_format(root, 'email_data',       'official.nguyenduchuy@gmail.com', 31)
-    justify_format(root, 'github_data',      '@kunnic',                          7)
+    J('os_data',          '  OS',          'Windows 11 LTSC, Fedora 44 Sway')
+    J('age_data',         '  Uptime',      age_data)
+    J('host_data',        '  Host',        'Ton Duc Thang University')
+    J('kernel_data',      '  Kernel',      'Computer Science Student')
+    J('ide_data',         '  IDE',         'VS Code, PyCharm, Jupyter')
+    J('lang_prog_data',   '  Programming', 'Python, JavaScript, C++')
+    J('lang_spoken_data', '  Spoken',      'Vietnamese, English')
+    J('research_data',    '  Research',    'CV, ML, Sentiment Analysis')
+    J('hobbies_data',     '  Hobbies',     'Reading, Psychology, Coding')
+    J('email_data',       '  Email',       'official.nguyenduchuy@gmail.com')
+    J('github_data',      '  GitHub',      '@kunnic')
 
+    # === Stats đơn giản — căn phải về cột TOTAL_W ===
+    J('star_data',        '  Stars',       star_data)
+    J('commit_data',      '  Commits',     commit_data)
+    J('follower_data',    '  Followers',   follower_data)
+
+    # === Repos đặc biệt: có "{Contributed: X}" sau value ===
+    contrib_str = str(contrib_data)
+    repo_extra = len(f" {{Contributed: {contrib_str}}}")  # độ dài phần thêm
+    repo_length = TOTAL_W - len('  Repos') - 1 - repo_extra
+    justify_format(root, 'repo_data', repo_data, repo_length)
+    justify_format(root, 'contrib_data', contrib_data)
+
+    # === LOC đặc biệt: có " (+X, -Y)" sau value ===
+    loc_add_str = f"+{loc_data[0]}"
+    loc_del_str = f"-{loc_data[1]}"
+    loc_extra = len(f" ({loc_add_str}, {loc_del_str})")
+    loc_length = TOTAL_W - len('  Lines of Code') - 1 - loc_extra
+    justify_format(root, 'loc_data', loc_data[2], loc_length)
+    justify_format(root, 'loc_add', loc_add_str)
+    justify_format(root, 'loc_del', loc_del_str)
+
+    # === ASCII portrait ===
     if ascii_rows:
         inject_ascii_portrait(root, ascii_rows)
 
@@ -343,11 +400,13 @@ if __name__ == "__main__":
     # 2. Tính tuổi (uptime)
     age_data = daily_readme(BIRTHDAY)
 
-    # 3. Đếm Lines of Code (cache lần đầu sẽ chậm, các lần sau nhanh)
+    # 3. Đếm Lines of Code
     print("→ Đang đếm Lines of Code (lần đầu có thể mất vài phút)...")
-    total_loc = loc_query(['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
+    # Đặt force_cache=True NẾU bạn vừa thay đổi EXCLUDED_REPOS
+    total_loc = loc_query(['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7,
+                          force_cache=True)
 
-    # 4. Đếm commits từ cache đã build ở bước trên
+    # 4. Đếm commits từ cache
     commit_data = commit_counter(7)
 
     # 5. Stars, Repos, Contributions, Followers
