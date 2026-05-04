@@ -61,18 +61,18 @@
     <tspan x="640" dy="1.4em" fill="#565f89">───────────────────────────────────</tspan>
 
     <!-- System block -->
-    <tspan x="640" dy="1.6em" fill="#7dcfff" font-weight="bold">  OS</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="os_dots" fill="#414868">..............</tspan><tspan id="os_data" fill="#c0caf5">Windows 11 LTSC, Fedora 44 Sway</tspan>
-    <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  Uptime</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="age_dots" fill="#414868">.........</tspan><tspan id="age_data" fill="#c0caf5">2 yrs                      </tspan>
+    <tspan x="640" dy="1.6em" fill="#7dcfff" font-weight="bold">  OS</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="os_dots" fill="#414868">..............</tspan><tspan id="os_data" fill="#c0caf5">Windows 11, Ubuntu 22.04</tspan>
+    <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  Uptime</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="age_dots" fill="#414868">.........</tspan><tspan id="age_data" fill="#c0caf5">23 years, 4 months, 3 days</tspan>
     <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  Host</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="host_dots" fill="#414868">............</tspan><tspan id="host_data" fill="#c0caf5">Ton Duc Thang University</tspan>
     <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  Kernel</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="kernel_dots" fill="#414868">..........</tspan><tspan id="kernel_data" fill="#c0caf5">Computer Science Student</tspan>
     <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  IDE</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="ide_dots" fill="#414868">.............</tspan><tspan id="ide_data" fill="#c0caf5">VS Code, PyCharm, Jupyter</tspan>
 
     <tspan x="640" dy="2.0em" fill="#565f89">─ Languages ───────────────────────</tspan>
-    <tspan x="640" dy="1.6em" fill="#9ece6a" font-weight="bold">  Programming</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="lang_prog_dots" fill="#414868">.....</tspan><tspan id="lang_prog_data" fill="#c0caf5">Python, C, (Basic Java + .NET)</tspan>
+    <tspan x="640" dy="1.6em" fill="#9ece6a" font-weight="bold">  Programming</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="lang_prog_dots" fill="#414868">.....</tspan><tspan id="lang_prog_data" fill="#c0caf5">Python, JavaScript, C++</tspan>
     <tspan x="640" dy="1.4em" fill="#9ece6a" font-weight="bold">  Spoken</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="lang_spoken_dots" fill="#414868">..........</tspan><tspan id="lang_spoken_data" fill="#c0caf5">Vietnamese, English</tspan>
 
     <tspan x="640" dy="2.0em" fill="#565f89">─ Interests ───────────────────────</tspan>
-    <tspan x="640" dy="1.6em" fill="#e0af68" font-weight="bold">  Research</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="research_dots" fill="#414868">........</tspan><tspan id="research_data" fill="#c0caf5">CV, ML, NLP               </tspan>
+    <tspan x="640" dy="1.6em" fill="#e0af68" font-weight="bold">  Research</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="research_dots" fill="#414868">........</tspan><tspan id="research_data" fill="#c0caf5">CV, ML, Sentiment Analysis</tspan>
     <tspan x="640" dy="1.4em" fill="#e0af68" font-weight="bold">  Hobbies</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="hobbies_dots" fill="#414868">.........</tspan><tspan id="hobbies_data" fill="#c0caf5">Reading, Psychology, Coding</tspan>
 
     <tspan x="640" dy="2.0em" fill="#565f89">─ Contact ─────────────────────────</tspan>
@@ -80,11 +80,11 @@
     <tspan x="640" dy="1.4em" fill="#f7768e" font-weight="bold">  GitHub</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="github_dots" fill="#414868">..........</tspan><tspan id="github_data" fill="#c0caf5">@kunnic</tspan>
 
     <tspan x="640" dy="2.0em" fill="#565f89">─ GitHub Stats ────────────────────</tspan>
-    <tspan x="640" dy="1.6em" fill="#bb9af7" font-weight="bold">  Repos</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="repo_dots" fill="#414868">...........</tspan><tspan id="repo_data" fill="#c0caf5">12    </tspan><tspan fill="#565f89"> {Contributed: </tspan><tspan id="contrib_data" fill="#c0caf5">5</tspan><tspan fill="#565f89">}</tspan>
-    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Stars</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="star_dots" fill="#414868">...........</tspan><tspan id="star_data" fill="#c0caf5">42            </tspan>
-    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Commits</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="commit_dots" fill="#414868">.........</tspan><tspan id="commit_data" fill="#c0caf5">1,024                 </tspan>
-    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Followers</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="follower_dots" fill="#414868">.......</tspan><tspan id="follower_data" fill="#c0caf5">100       </tspan>
-    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Lines of Code</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="loc_dots" fill="#414868">...</tspan><tspan id="loc_data" fill="#c0caf5">800      </tspan><tspan fill="#565f89"> (</tspan><tspan id="loc_add" fill="#9ece6a">+1000</tspan><tspan fill="#565f89">, </tspan><tspan id="loc_del" fill="#f7768e">-200   </tspan><tspan fill="#565f89">)</tspan>
+    <tspan x="640" dy="1.6em" fill="#bb9af7" font-weight="bold">  Repos</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="repo_dots" fill="#414868">...........</tspan><tspan id="repo_data" fill="#c0caf5">23</tspan><tspan fill="#565f89"> {Contributed: </tspan><tspan id="contrib_data" fill="#c0caf5">24</tspan><tspan fill="#565f89">}</tspan>
+    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Stars</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="star_dots" fill="#414868">...........</tspan><tspan id="star_data" fill="#c0caf5">0</tspan>
+    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Commits</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="commit_dots" fill="#414868">.........</tspan><tspan id="commit_data" fill="#c0caf5">130</tspan>
+    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Followers</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="follower_dots" fill="#414868">.......</tspan><tspan id="follower_data" fill="#c0caf5">0</tspan>
+    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Lines of Code</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="loc_dots" fill="#414868">...</tspan><tspan id="loc_data" fill="#c0caf5">966,091</tspan><tspan fill="#565f89"> (</tspan><tspan id="loc_add" fill="#9ece6a">1,097,699</tspan><tspan fill="#565f89">, </tspan><tspan id="loc_del" fill="#f7768e">131,608</tspan><tspan fill="#565f89">)</tspan>
 
     <!-- Color palette swatches -->
     <tspan x="640" dy="2.4em" font-size="18">
