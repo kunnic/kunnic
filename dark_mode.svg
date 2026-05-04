@@ -10,59 +10,49 @@
     }
   </style>
 
-  <!-- ============ ASCII PORTRAIT ============ -->
   <text x="25" y="30" class="ascii-text" font-size="12" fill="#a9b1d6" xml:space="preserve">
-  <tspan x="25" dy="1.1em">                              .  ':::,^`'      ...</tspan>
-  <tspan x="25" dy="1.1em">                             . `~+&lt;lliii&gt;&gt;i&gt;I"'     ...</tspan>
-  <tspan x="25" dy="1.1em">                     ...      !{I        .`:l&gt;~+!:`    .</tspan>
-  <tspan x="25" dy="1.1em">                  ..    .`^`^+)" ........      `I&lt;~+&gt;!^  .</tspan>
-  <tspan x="25" dy="1.1em">                 .  .:&lt;~&lt;&gt;&lt;&lt;~&gt;  .          ....    ."![&gt;^  .</tspan>
-  <tspan x="25" dy="1.1em">                . "&lt;+~:'.     ..     ..         ...    l-~' .</tspan>
-  <tspan x="25" dy="1.1em">               . ~?;.    ...............             .   i[!  .</tspan>
-  <tspan x="25" dy="1.1em">              . i}   .. ....             .........     .. '+?` .</tspan>
-  <tspan x="25" dy="1.1em">              .`('..   ..   ^l::,";!l,^'.                .  ;{I..</tspan>
-  <tspan x="25" dy="1.1em">             . &gt;1 .   .  :~(cvxxnxuvzx/()}___~!:"`.        . ,|..</tspan>
-  <tspan x="25" dy="1.1em">             . _&lt;..  . :{zB8$BjjjpHg&amp;qrrrrxxxrr}ill,.       . [! .</tspan>
-  <tspan x="25" dy="1.1em">             . [~.. . ;v$&amp;&amp;&amp;M%#MM8W%#Bvtt|||||(~llll`       ..,(..</tspan>
-  <tspan x="25" dy="1.1em">             . ,( .. "|$8B&amp;8W%%%W&amp;M#M8gutttttt}llllI`       . "\'.</tspan>
-  <tspan x="25" dy="1.1em">              ..(,  .{p&amp;#MMWM%%%HxxvzjUkx|tttt\&lt;IllI^       ..(, .</tspan>
-  <tspan x="25" dy="1.1em">              . +? ']zB#%@@@@@@@#gc||tc$0zxt||t_Ill".      . i{ .</tspan>
-  <tspan x="25" dy="1.1em">              . l[')zpc\}(z&amp;%@@@@@MzxU&amp;%Bpnrrxx]ll:.       .'("..</tspan>
-  <tspan x="25" dy="1.1em">                ^1!ut?I!l;:"l+](xkkuxuvznr/)}?&gt;"'         . l} .</tspan>
-  <tspan x="25" dy="1.1em">               . ?]xrtrnOBBq1?+&gt;~{////|(?+,.  '^,^`.      . }!..</tspan>
-  <tspan x="25" dy="1.1em">               . lr&lt;)?{rcUjz]+?]{{1|nvx}:,"l_?}}?!;`     . ;/: .</tspan>
-  <tspan x="25" dy="1.1em">               .'rr[";tW_(p_' ":l1_:lI,^"l]_!i"   . . .    `"}I .</tspan>
-  <tspan x="25" dy="1.1em">               ..nv@[1x\--)/?&gt;+[1r( +?I .'>li?:"^.   ''..   .{`.</tspan>
-  <tspan x="25" dy="1.1em">               . \cOu{WUHHzuuxrnrv`}gu+. .";&lt;&gt;lll;"":,'.  . i? .</tspan>
-  <tspan x="25" dy="1.1em">               . ?zrH)O@@@@@#BO8B/(%k/&gt;  ^])n|[&lt;ll!I!:.   . &gt;+ .</tspan>
-  <tspan x="25" dy="1.1em">               . ~q|0&amp;nqjqkUjjjqvq@@8u1, `i/Out|-!l~+`    . +&lt; .</tspan>
-  <tspan x="25" dy="1.1em">               . )cxg%@#Wgkpqn(uWMBWWq{llI.'i_-_&gt;lIi".    ..}, .</tspan>
-  <tspan x="25" dy="1.1em">               . nztH0M@@@@@MHBkrI?v/-^.,~" !/()?~I"     .. [; .</tspan>
-  <tspan x="25" dy="1.1em">               . ,zz&amp;8#M@%%%M%@&amp;pO%@kn)-il;,&lt;xrt|[ll,.    'I},..</tspan>
-  <tspan x="25" dy="1.1em">                  nj#%%@@@@@@%#@@@@0xMMnn)!l!(x|[!l:'  . ^{i^ .</tspan>
-  <tspan x="25" dy="1.1em">                ..(j8@@@@@@@@@@%$Hqt|t|}_+!:.l)r?Il' '.. -i ..</tspan>
-  <tspan x="25" dy="1.1em">                ..ljB##@@@@8gjn|)[}11~::,,"' `~/+l, ';'.');.  ..</tspan>
-  <tspan x="25" dy="1.1em">              ...  [gMW%@%&amp;Wz}1(\(((){{&gt;,.   !|?I!^'::. .`&lt;+&lt;,  ..</tspan>
-  <tspan x="25" dy="1.1em">            ..   `I~vzM@@W0gggpnrrrttt(&lt;;.  'l[+Il;,`      .:++;  .</tspan>
-  <tspan x="25" dy="1.1em">          ..  ;[(xur}xOH&amp;&amp;0jUBjut|(}][}_lI::llIlllI"..   ..   "~-:  .</tspan>
-  <tspan x="25" dy="1.1em">         .  &gt;(t{}{{}[]}?tjUg8&amp;Hqkkzcrtrx{ll!ll!lII:`.       ..  "__`  .</tspan>
-  <tspan x="25" dy="1.1em">        . ^[{&lt;;:&gt;?~&gt;~&lt;!l&gt;+(z$#%$&amp;%&amp;c|ttt_I;lll"","'.          .'  I?&gt;`  ..</tspan>
-  <tspan x="25" dy="1.1em"> .     . l)~:Ill&gt;]]-~&gt;&lt;&lt;i:ll-zOqjzxtrr|]IlllI:"`.        ..'^' "l"  !_~^   .</tspan>
-  <tspan x="25" dy="1.1em">      . &lt;(il_!i!&lt;+~&lt;iii&gt;II! ,|/|/((()]&lt;lllllllI:"'.        .:;^ `l;.  I_~:   ..</tspan>
-  <tspan x="25" dy="1.1em">     . !(~&lt;]?~[-~~&lt;&gt;&gt;&lt;i!;I!`;ttt|(]i;;;IIIIIIIll!:.     ^,^'.l~+, "I"   ,~_i`  .</tspan>
-  <tspan x="25" dy="1.1em">     ..\_-+1_{)[&gt;&lt;&lt;&gt;&gt;i!iI;!:"/t|tt|]~+-]}}}-]?&gt;l;`      "!{]: ;)t?:";I"'  'l_~"</tspan>
-  <tspan x="25" dy="1.1em">    . :\&lt;?11{{]&lt;i&gt;&gt;&lt;&gt;i!&gt;!Ill`1zn|ttttrrrrrrrrr-^.      .'.l{+: ,}x|],"il".   I?~'.</tspan>
-</text>
+    <tspan id="ascii_row_00" x="25" dy="1.1em">                              .  ':::,^`'      ...                                </tspan>
+    <tspan id="ascii_row_01" x="25" dy="1.1em">                             . `~+&lt;lliii&gt;&gt;i&gt;I"'     ...                           </tspan>
+    <tspan id="ascii_row_02" x="25" dy="1.1em">                     ...      !{I        .`:l&gt;~+!:`    .                          </tspan>
+    <tspan id="ascii_row_03" x="25" dy="1.1em">                  ..    .`^`^+)" ........      `I&lt;~+&gt;!^  .                        </tspan>
+    <tspan id="ascii_row_04" x="25" dy="1.1em">                 .  .:&lt;~&lt;&gt;&lt;&lt;~&gt;  .          ....    ."![&gt;^  .                      </tspan>
+    <tspan id="ascii_row_05" x="25" dy="1.1em">                . "&lt;+~:'.     ..     ..         ...    l-~' .                     </tspan>
+    <tspan id="ascii_row_06" x="25" dy="1.1em">               . ~?;.    ...............             .   i[!  .                   </tspan>
+    <tspan id="ascii_row_07" x="25" dy="1.1em">              . i}   .. ....             .........     .. '+?` .                  </tspan>
+    <tspan id="ascii_row_08" x="25" dy="1.1em">              .`('..   ..   ^l::,";!l,^'.                .  ;{I..                 </tspan>
+    <tspan id="ascii_row_09" x="25" dy="1.1em">             . &gt;1 .   .  :~(cvxxnxuvzx/()}___~!:"`.        . ,|..                 </tspan>
+    <tspan id="ascii_row_10" x="25" dy="1.1em">             . _&lt;..  . :{zB8$BjjjpHg&amp;qrrrrxxxrr}ill,.       . [! .                </tspan>
+    <tspan id="ascii_row_11" x="25" dy="1.1em">             . [~.. . ;v$&amp;&amp;&amp;M%#MM8W%#Bvtt|||||(~llll`       ..,(..                </tspan>
+    <tspan id="ascii_row_12" x="25" dy="1.1em">             . ,( .. "|$8B&amp;8W%%%W&amp;M#M8gutttttt}llllI`       . "\'.                </tspan>
+    <tspan id="ascii_row_13" x="25" dy="1.1em">              ..(,  .{p&amp;#MMWM%%%HxxvzjUkx|tttt\&lt;IllI^       ..(, .                </tspan>
+    <tspan id="ascii_row_14" x="25" dy="1.1em">              . +? ']zB#%@@@@@@@#gc||tc$0zxt||t_Ill".      . i{ .                 </tspan>
+    <tspan id="ascii_row_15" x="25" dy="1.1em">              . l[')zpc\}(z&amp;%@@@@@MzxU&amp;%Bpnrrxx]ll:.       .'("..                 </tspan>
+    <tspan id="ascii_row_16" x="25" dy="1.1em">                ^1!ut?I!l;:"l+](xkkuxuvznr/)}?&gt;"'         . l} .                  </tspan>
+    <tspan id="ascii_row_17" x="25" dy="1.1em">               . ?]xrtrnOBBq1?+&gt;~{////|(?+,.  '^,^`.      . }!..                  </tspan>
+    <tspan id="ascii_row_18" x="25" dy="1.1em">               . lr&lt;)?{rcUjz]+?]{{1|nvx}:,"l_?}}?!;`     . ;/: .                  </tspan>
+    <tspan id="ascii_row_19" x="25" dy="1.1em">               .'rr[";tW_(p_' ":l1_:lI,^"l]_!i"   . . .    `"}I .                 </tspan>
+    <tspan id="ascii_row_20" x="25" dy="1.1em">               ..nv@[1x\--)/?&gt;+[1r( +?I .'&gt;li?:"^.   ''..   .{`.                  </tspan>
+    <tspan id="ascii_row_21" x="25" dy="1.1em">               . \cOu{WUHHzuuxrnrv`}gu+. .";&lt;&gt;lll;"":,'.  . i? .                  </tspan>
+    <tspan id="ascii_row_22" x="25" dy="1.1em">               . ?zrH)O@@@@@#BO8B/(%k/&gt;  ^])n|[&lt;ll!I!:.   . &gt;+ .                  </tspan>
+    <tspan id="ascii_row_23" x="25" dy="1.1em">               . ~q|0&amp;nqjqkUjjjqvq@@8u1, `i/Out|-!l~+`    . +&lt; .                  </tspan>
+    <tspan id="ascii_row_24" x="25" dy="1.1em">               . )cxg%@#Wgkpqn(uWMBWWq{llI.'i_-_&gt;lIi".    ..}, .                  </tspan>
+    <tspan id="ascii_row_25" x="25" dy="1.1em">               . nztH0M@@@@@MHBkrI?v/-^.,~" !/()?~I"     .. [; .                  </tspan>
+    <tspan id="ascii_row_26" x="25" dy="1.1em">               . ,zz&amp;8#M@%%%M%@&amp;pO%@kn)-il;,&lt;xrt|[ll,.    'I},..                  </tspan>
+    <tspan id="ascii_row_27" x="25" dy="1.1em">                  nj#%%@@@@@@%#@@@@0xMMnn)!l!(x|[!l:'  . ^{i^ .                   </tspan>
+    <tspan id="ascii_row_28" x="25" dy="1.1em">                ..(j8@@@@@@@@@@%$Hqt|t|}_+!:.l)r?Il' '.. -i ..                    </tspan>
+    <tspan id="ascii_row_29" x="25" dy="1.1em">                ..ljB##@@@@8gjn|)[}11~::,,"' `~/+l, ';'.');.  ..                  </tspan>
+    <tspan id="ascii_row_30" x="25" dy="1.1em">              ...  [gMW%@%&amp;Wz}1(\(((){{&gt;,.   !|?I!^'::. .`&lt;+&lt;,  ..                </tspan>
+    <tspan id="ascii_row_31" x="25" dy="1.1em">            ..   `I~vzM@@W0gggpnrrrttt(&lt;;.  'l[+Il;,`      .:++;  .               </tspan>
+    <tspan id="ascii_row_32" x="25" dy="1.1em">          ..  ;[(xur}xOH&amp;&amp;0jUBjut|(}][}_lI::llIlllI"..   ..   "~-:  .             </tspan>
+    <tspan id="ascii_row_33" x="25" dy="1.1em">         .  &gt;(t{}{{}[]}?tjUg8&amp;Hqkkzcrtrx{ll!ll!lII:`.       ..  "__`  .           </tspan>
+    <tspan id="ascii_row_34" x="25" dy="1.1em">        . ^[{&lt;;:&gt;?~&gt;~&lt;!l&gt;+(z$#%$&amp;%&amp;c|ttt_I;lll"","'.          .'  I?&gt;`  ..        </tspan>
+  </text>
 
-  <!-- ============ NEOFETCH STATS ============ -->
   <text x="640" y="50" class="ascii-text" font-size="13" xml:space="preserve">
 
-    <!-- Header: user@host -->
     <tspan x="640" dy="0" fill="#bb9af7" font-weight="bold">kunnic</tspan><tspan fill="#a9b1d6">@</tspan><tspan fill="#7aa2f7" font-weight="bold">tdtu</tspan>
     <tspan x="640" dy="1.4em" fill="#565f89">──────────────────────────────────────────────────</tspan>
 
-    <!-- System block -->
-<<<<<<< HEAD
     <tspan x="640" dy="1.6em"><tspan fill="#7dcfff" font-weight="bold">  OS</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="os_dots" fill="#414868" xml:space="preserve"> ............ </tspan><tspan id="os_data" fill="#c0caf5" xml:space="preserve">Windows 11 LTSC, Fedora 44 Sway</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#7dcfff" font-weight="bold">  Uptime</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="age_dots" fill="#414868" xml:space="preserve"> ............ </tspan><tspan id="age_data" fill="#c0caf5" xml:space="preserve">21 years, 6 months, 17 days</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#7dcfff" font-weight="bold">  Host</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="host_dots" fill="#414868" xml:space="preserve"> ................. </tspan><tspan id="host_data" fill="#c0caf5" xml:space="preserve">Ton Duc Thang University</tspan></tspan>
@@ -76,43 +66,18 @@
     <tspan x="640" dy="2.0em" fill="#565f89">─ Interests ──────────────────────────────────────</tspan>
     <tspan x="640" dy="1.6em"><tspan fill="#e0af68" font-weight="bold">  Research</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="research_dots" fill="#414868" xml:space="preserve"> ........... </tspan><tspan id="research_data" fill="#c0caf5" xml:space="preserve">CV, ML, Sentiment Analysis</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#e0af68" font-weight="bold">  Hobbies</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="hobbies_dots" fill="#414868" xml:space="preserve"> ........... </tspan><tspan id="hobbies_data" fill="#c0caf5" xml:space="preserve">Reading, Psychology, Coding</tspan></tspan>
-=======
-    <tspan x="640" dy="1.6em" fill="#7dcfff" font-weight="bold">  OS</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="os_dots" fill="#414868">..............</tspan><tspan id="os_data" fill="#c0caf5">Windows 11, Ubuntu 22.04</tspan>
-    <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  Uptime</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="age_dots" fill="#414868">.........</tspan><tspan id="age_data" fill="#c0caf5">23 years, 4 months, 3 days</tspan>
-    <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  Host</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="host_dots" fill="#414868">............</tspan><tspan id="host_data" fill="#c0caf5">Ton Duc Thang University</tspan>
-    <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  Kernel</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="kernel_dots" fill="#414868">..........</tspan><tspan id="kernel_data" fill="#c0caf5">Computer Science Student</tspan>
-    <tspan x="640" dy="1.4em" fill="#7dcfff" font-weight="bold">  IDE</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="ide_dots" fill="#414868">.............</tspan><tspan id="ide_data" fill="#c0caf5">VS Code, PyCharm, Jupyter</tspan>
-
-    <tspan x="640" dy="2.0em" fill="#565f89">─ Languages ───────────────────────</tspan>
-    <tspan x="640" dy="1.6em" fill="#9ece6a" font-weight="bold">  Programming</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="lang_prog_dots" fill="#414868">.....</tspan><tspan id="lang_prog_data" fill="#c0caf5">Python, JavaScript, C++</tspan>
-    <tspan x="640" dy="1.4em" fill="#9ece6a" font-weight="bold">  Spoken</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="lang_spoken_dots" fill="#414868">..........</tspan><tspan id="lang_spoken_data" fill="#c0caf5">Vietnamese, English</tspan>
-
-    <tspan x="640" dy="2.0em" fill="#565f89">─ Interests ───────────────────────</tspan>
-    <tspan x="640" dy="1.6em" fill="#e0af68" font-weight="bold">  Research</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="research_dots" fill="#414868">........</tspan><tspan id="research_data" fill="#c0caf5">CV, ML, Sentiment Analysis</tspan>
-    <tspan x="640" dy="1.4em" fill="#e0af68" font-weight="bold">  Hobbies</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="hobbies_dots" fill="#414868">.........</tspan><tspan id="hobbies_data" fill="#c0caf5">Reading, Psychology, Coding</tspan>
->>>>>>> 8685e526a524b1550264d5b80b302724d01d2c90
 
     <tspan x="640" dy="2.0em" fill="#565f89">─ Contact ────────────────────────────────────────</tspan>
     <tspan x="640" dy="1.6em"><tspan fill="#f7768e" font-weight="bold">  Email</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="email_dots" fill="#414868" xml:space="preserve"> ......... </tspan><tspan id="email_data" fill="#c0caf5" xml:space="preserve">official.nguyenduchuy@gmail.com</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#f7768e" font-weight="bold">  GitHub</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="github_dots" fill="#414868" xml:space="preserve"> ................................ </tspan><tspan id="github_data" fill="#c0caf5" xml:space="preserve">@kunnic</tspan></tspan>
 
-<<<<<<< HEAD
     <tspan x="640" dy="2.0em" fill="#565f89">─ GitHub Stats ───────────────────────────────────</tspan>
     <tspan x="640" dy="1.6em"><tspan fill="#bb9af7" font-weight="bold">  Repos</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="repo_dots" fill="#414868" xml:space="preserve"> .................... </tspan><tspan id="repo_data" fill="#c0caf5" xml:space="preserve">21</tspan><tspan fill="#565f89"> {Contributed: </tspan><tspan id="contrib_data" fill="#c0caf5" xml:space="preserve">22</tspan><tspan fill="#565f89">}</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#bb9af7" font-weight="bold">  Stars</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="star_dots" fill="#414868" xml:space="preserve"> ....................................... </tspan><tspan id="star_data" fill="#c0caf5" xml:space="preserve">0</tspan></tspan>
-    <tspan x="640" dy="1.4em"><tspan fill="#bb9af7" font-weight="bold">  Commits</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="commit_dots" fill="#414868" xml:space="preserve"> .................................... </tspan><tspan id="commit_data" fill="#c0caf5" xml:space="preserve">62</tspan></tspan>
+    <tspan x="640" dy="1.4em"><tspan fill="#bb9af7" font-weight="bold">  Commits</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="commit_dots" fill="#414868" xml:space="preserve"> .................................... </tspan><tspan id="commit_data" fill="#c0caf5" xml:space="preserve">64</tspan></tspan>
     <tspan x="640" dy="1.4em"><tspan fill="#bb9af7" font-weight="bold">  Followers</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="follower_dots" fill="#414868" xml:space="preserve"> ................................... </tspan><tspan id="follower_data" fill="#c0caf5" xml:space="preserve">0</tspan></tspan>
-    <tspan x="640" dy="1.4em"><tspan fill="#bb9af7" font-weight="bold">  Lines of Code</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="loc_dots" fill="#414868" xml:space="preserve"> ........ </tspan><tspan id="loc_data" fill="#c0caf5" xml:space="preserve">19,401</tspan><tspan fill="#565f89"> (</tspan><tspan id="loc_add" fill="#9ece6a" xml:space="preserve">+21,061</tspan><tspan fill="#565f89">, </tspan><tspan id="loc_del" fill="#f7768e" xml:space="preserve">-1,660</tspan><tspan fill="#565f89">)</tspan></tspan>
-=======
-    <tspan x="640" dy="2.0em" fill="#565f89">─ GitHub Stats ────────────────────</tspan>
-    <tspan x="640" dy="1.6em" fill="#bb9af7" font-weight="bold">  Repos</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="repo_dots" fill="#414868">...........</tspan><tspan id="repo_data" fill="#c0caf5">23</tspan><tspan fill="#565f89"> {Contributed: </tspan><tspan id="contrib_data" fill="#c0caf5">24</tspan><tspan fill="#565f89">}</tspan>
-    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Stars</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="star_dots" fill="#414868">...........</tspan><tspan id="star_data" fill="#c0caf5">0</tspan>
-    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Commits</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="commit_dots" fill="#414868">.........</tspan><tspan id="commit_data" fill="#c0caf5">130</tspan>
-    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Followers</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="follower_dots" fill="#414868">.......</tspan><tspan id="follower_data" fill="#c0caf5">0</tspan>
-    <tspan x="640" dy="1.4em" fill="#bb9af7" font-weight="bold">  Lines of Code</tspan><tspan fill="#a9b1d6">: </tspan><tspan id="loc_dots" fill="#414868">...</tspan><tspan id="loc_data" fill="#c0caf5">966,091</tspan><tspan fill="#565f89"> (</tspan><tspan id="loc_add" fill="#9ece6a">1,097,699</tspan><tspan fill="#565f89">, </tspan><tspan id="loc_del" fill="#f7768e">131,608</tspan><tspan fill="#565f89">)</tspan>
->>>>>>> 8685e526a524b1550264d5b80b302724d01d2c90
+    <tspan x="640" dy="1.4em"><tspan fill="#bb9af7" font-weight="bold">  Lines of Code</tspan><tspan fill="#a9b1d6">:</tspan><tspan id="loc_dots" fill="#414868" xml:space="preserve"> ........ </tspan><tspan id="loc_data" fill="#c0caf5" xml:space="preserve">19,275</tspan><tspan fill="#565f89"> (</tspan><tspan id="loc_add" fill="#9ece6a" xml:space="preserve">+21,334</tspan><tspan fill="#565f89">, </tspan><tspan id="loc_del" fill="#f7768e" xml:space="preserve">-2,059</tspan><tspan fill="#565f89">)</tspan></tspan>
 
-    <!-- Color palette swatches -->
     <tspan x="640" dy="2.4em" font-size="18">
       <tspan fill="#1a1b26">███</tspan><tspan fill="#f7768e">███</tspan><tspan fill="#9ece6a">███</tspan><tspan fill="#e0af68">███</tspan><tspan fill="#7aa2f7">███</tspan><tspan fill="#bb9af7">███</tspan><tspan fill="#7dcfff">███</tspan><tspan fill="#c0caf5">███</tspan>
     </tspan>
