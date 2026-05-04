@@ -1,46 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 700" width="850" height="700">
   <rect width="100%" height="100%" fill="#1a1b26" rx="15"/>
   
-  <text x="25" y="20" font-family="'Courier New', Consolas, monospace" font-size="14" fill="#a9b1d6" xml:space="preserve">
-    <tspan x="25" dy="1.2em">                      .  &#x27;:::,^`&#x27;      ...                                      </tspan>
-    <tspan x="25" dy="1.2em">                     . `~+&lt;lliii&gt;&gt;i&gt;I&quot;&#x27;     ...                                 </tspan>
-    <tspan x="25" dy="1.2em">             ...      !{I        .`:l&gt;~+!:`    .                                </tspan>
-    <tspan x="25" dy="1.2em">          ..    .`^`^+)&quot; ........      `I&lt;~+&gt;!^  .                              </tspan>
-    <tspan x="25" dy="1.2em">         .  .:&lt;~&lt;&gt;&lt;&lt;~&gt;  .          ....    .&quot;![&gt;^  .                            </tspan>
-    <tspan x="25" dy="1.2em">        . &quot;&lt;+~:&#x27;.     ..     ..         ...    l-~&#x27; .                           </tspan>
-    <tspan x="25" dy="1.2em">       . ~?;.    ...............             .   i[!  .                         </tspan>
-    <tspan x="25" dy="1.2em">      . i}   .. ....             .........     .. &#x27;+?` .                        </tspan>
-    <tspan x="25" dy="1.2em">      .`(&#x27;..   ..   ^l::,&quot;;!l,^&#x27;.                .  ;{I..                       </tspan>
-    <tspan x="25" dy="1.2em">     . &gt;1 .   .  :~(cvxxnxuvzx/()}___~!:&quot;`.        . ,|..                       </tspan>
-    <tspan x="25" dy="1.2em">     . _&lt;..  . :{zB8$BjjjpHg&amp;qrrrrxxxrr}ill,.       . [! .                      </tspan>
-    <tspan x="25" dy="1.2em">     . [~.. . ;v$&amp;&amp;&amp;M%#MM8W%#Bvtt|||||(~llll`       ..,(..                      </tspan>
-    <tspan x="25" dy="1.2em">     . ,( .. &quot;|$8B&amp;8W%%%W&amp;M#M8gutttttt}llllI`       . &quot;\&#x27;.                      </tspan>
-    <tspan x="25" dy="1.2em">      ..(,  .{p&amp;#MMWM%%%HxxvzjUkx|tttt\&lt;IllI^       ..(, .                      </tspan>
-    <tspan x="25" dy="1.2em">      . +? &#x27;]zB#%@@@@@@@#gc||tc$0zxt||t_Ill&quot;.      . i{ .                       </tspan>
-    <tspan x="25" dy="1.2em">      . l[&#x27;)zpc\}(z&amp;%@@@@@MzxU&amp;%Bpnrrxx]ll:.       .&#x27;(&quot;..                       </tspan>
-    <tspan x="25" dy="1.2em">        ^1!ut?I!l;:&quot;l+](xkkuxuvznr/)}?&gt;&quot;&#x27;         . l} .                        </tspan>
-    <tspan x="25" dy="1.2em">       . ?]xrtrnOBBq1?+&gt;~{////|(?+,.  &#x27;^,^`.      . }!..                        </tspan>
-    <tspan x="25" dy="1.2em">       . lr&lt;)?{rcUjz]+?]{{1|nvx}:,&quot;l_?}}?!;`     . ;/: .                        </tspan>
-    <tspan x="25" dy="1.2em">       .&#x27;rr[&quot;;tW_(p_&#x27; &quot;:l1_:lI,^&quot;l]_!i&quot;   . . .    `&quot;}I .                       </tspan>
-    <tspan x="25" dy="1.2em">       ..nv@[1x\--)/?&gt;+[1r( +?I .&#x27;&gt;li?:&quot;^.   &#x27;&#x27;..   .{`.                        </tspan>
-    <tspan x="25" dy="1.2em">       . \cOu{WUHHzuuxrnrv`}gu+. .&quot;;&lt;&gt;lll;&quot;&quot;:,&#x27;.  . i? .                        </tspan>
-    <tspan x="25" dy="1.2em">       . ?zrH)O@@@@@#BO8B/(%k/&gt;  ^])n|[&lt;ll!I!:.   . &gt;+ .                        </tspan>
-    <tspan x="25" dy="1.2em">       . ~q|0&amp;nqjqkUjjjqvq@@8u1, `i/Out|-!l~+`    . +&lt; .                        </tspan>
-    <tspan x="25" dy="1.2em">       . )cxg%@#Wgkpqn(uWMBWWq{llI.&#x27;i_-_&gt;lIi&quot;.    ..}, .                        </tspan>
-    <tspan x="25" dy="1.2em">       . nztH0M@@@@@MHBkrI?v/-^.,~&quot; !/()?~I&quot;     .. [; .                        </tspan>
-    <tspan x="25" dy="1.2em">       . ,zz&amp;8#M@%%%M%@&amp;pO%@kn)-il;,&lt;xrt|[ll,.    &#x27;I},..                        </tspan>
-    <tspan x="25" dy="1.2em">          nj#%%@@@@@@%#@@@@0xMMnn)!l!(x|[!l:&#x27;  . ^{i^ .                         </tspan>
-    <tspan x="25" dy="1.2em">        ..(j8@@@@@@@@@@%$Hqt|t|}_+!:.l)r?Il&#x27; &#x27;.. -i ..                          </tspan>
-    <tspan x="25" dy="1.2em">        ..ljB##@@@@8gjn|)[}11~::,,&quot;&#x27; `~/+l, &#x27;;&#x27;.&#x27;);.  ..                        </tspan>
-    <tspan x="25" dy="1.2em">      ...  [gMW%@%&amp;Wz}1(\(((){{&gt;,.   !|?I!^&#x27;::. .`&lt;+&lt;,  ..                      </tspan>
-    <tspan x="25" dy="1.2em">    ..   `I~vzM@@W0gggpnrrrttt(&lt;;.  &#x27;l[+Il;,`      .:++;  .                     </tspan>
-    <tspan x="25" dy="1.2em">  ..  ;[(xur}xOH&amp;&amp;0jUBjut|(}][}_lI::llIlllI&quot;..   ..   &quot;~-:  .                   </tspan>
-    <tspan x="25" dy="1.2em"> .  &gt;(t{}{{}[]}?tjUg8&amp;Hqkkzcrtrx{ll!ll!lII:`.       ..  &quot;__`  .                 </tspan>
-    <tspan x="25" dy="1.2em">. ^[{&lt;;:&gt;?~&gt;~&lt;!l&gt;+(z$#%$&amp;%&amp;c|ttt_I;lll&quot;&quot;,&quot;&#x27;.          .&#x27;  I?&gt;`  ..              </tspan>
-    <tspan x="25" dy="1.2em"> l)~:Ill&gt;]]-~&gt;&lt;&lt;i:ll-zOqjzxtrr|]IlllI:&quot;`.        ..&#x27;^&#x27; &quot;l&quot;  !_~^   .            </tspan>
-    <tspan x="25" dy="1.2em">&lt;(il_!i!&lt;+~&lt;iii&gt;II! ,|/|/((()]&lt;lllllllI:&quot;&#x27;.        .:;^ `l;.  I_~:   ..         </tspan>
-    <tspan x="25" dy="1.2em">(~&lt;]?~[-~~&lt;&gt;&gt;&lt;i!;I!`;ttt|(]i;;;IIIIIIIll!:.     ^,^&#x27;.l~+, &quot;I&quot;   ,~_i`  .        </tspan>
-    <tspan x="25" dy="1.2em">_-+1_{)[&gt;&lt;&lt;&gt;&gt;i!iI;!:&quot;/t|tt|]~+-]}}}-]?&gt;l;`      &quot;!{]: ;)t?:&quot;;I&quot;&#x27;  &#x27;l_~&quot;         </tspan>
-    <tspan x="25" dy="1.2em">&lt;?11{{]&lt;i&gt;&gt;&lt;&gt;i!&gt;!Ill`1zn|ttttrrrrrrrrr-^.      .&#x27;.l{+: ,}x|],&quot;il&quot;.   I?~&#x27;.      </tspan>
+  <style>
+    .ascii-text {
+      font-family: 'Cascadia Code', 'Source Code Pro', 'Courier New', 'Consolas', monospace;
+      font-variant-ligatures: none;
+      text-rendering: optimizeSpeed;
+    }
+  </style>
+
+  <text x="25" y="30" class="ascii-text" font-size="12" fill="#a9b1d6" xml:space="preserve">
+    <tspan x="25" dy="1.1em">                      .  ':::,^`'      ...                                      </tspan>
+    <tspan x="25" dy="1.1em">                     . `~+&lt;lliii&gt;&gt;i&gt;I&quot;'     ...                                 </tspan>
+    <tspan x="25" dy="1.1em">             ...      !{I        .`:l&gt;~+!:`    .                                </tspan>
+    <tspan x="25" dy="1.1em">          ..    .`^`^+)&quot; ........      `I&lt;~+&gt;!^  .                               </tspan>
+    <tspan x="25" dy="1.1em">         .  .:&lt;~&lt;&gt;&lt;&lt;~&gt;  .          ....    .&quot;![&gt;^  .                            </tspan>
+    <tspan x="25" dy="1.1em">        . &quot;&lt;+~:'.     ..     ..         ...    l-~' .                           </tspan>
+    <tspan x="25" dy="1.1em">       . ~?;.     ...............               .   i[!  .                         </tspan>
+    <tspan x="25" dy="1.1em">      . i}   .. ....             .........     .. '+?` .                        </tspan>
+    <tspan x="25" dy="1.1em">      .`('..   ..   ^l::,&quot;;!l,^'.                .  ;{I..                       </tspan>
+    <tspan x="25" dy="1.1em">     . &gt;1 .   .  :~(cvxxnxuvzx/()}___~!:&quot;`.        . ,|..                       </tspan>
+    <tspan x="25" dy="1.1em">     . _&lt;..  . :{zB8$BjjjpHg&amp;qrrrrxxxrr}ill,.       . [! .                      </tspan>
+    <tspan x="25" dy="1.1em">     . [~.. . ;v$&amp;&amp;&amp;M%#MM8W%#Bvtt|||||(~llll`       ..,(..                      </tspan>
+    <tspan x="25" dy="1.1em">     . ,( .. &quot;|$8B&amp;8W%%%W&amp;M#M8gutttttt}llllI`       . &quot;\' .                      </tspan>
+    <tspan x="25" dy="1.1em">      ..(,  .{p&amp;#MMWM%%%HxxvzjUkx|tttt\&lt;IllI^       ..(, .                      </tspan>
+    <tspan x="25" dy="1.1em">      . +? ']zB#%@@@@@@@#gc||tc$0zxt||t_Ill&quot;.      . i{ .                       </tspan>
+    <tspan x="25" dy="1.1em">      . l[')zpc\}(z&amp;%@@@@@MzxU&amp;%Bpnrrxx]ll:.       .'(&quot;..                       </tspan>
+    <tspan x="25" dy="1.1em">        ^1!ut?I!l;:&quot;l+](xkkuxuvznr/)}?&gt;&quot;'          . l} .                       </tspan>
+    <tspan x="25" dy="1.1em">       . ?]xrtrnOBBq1?+&gt;~{////|(?+,.  '^,^`.      . }!..                        </tspan>
+    <tspan x="25" dy="1.1em">       . lr&lt;)?{rcUjz]+?]{{1|nvx}:,&quot;l_?}}?!;`     . ;/: .                        </tspan>
+    <tspan x="25" dy="1.1em">       .'rr[&quot;;tW_(p_' &quot;:l1_:lI,^&quot;l]_!i&quot;   . . .    `&quot;}I .                       </tspan>
+    <tspan x="25" dy="1.1em">      ..nv@[1x\--)/?&gt;+[1r( +?I .'Ili?:&quot;^.   ''..   .{`.                         </tspan>
+    <tspan x="25" dy="1.1em">      . \cOu{WUHHzuuxrnrv`}gu+. .&quot;;&lt;&gt;lll;&quot;&quot;:,'.  . i? .                         </tspan>
+    <tspan x="25" dy="1.1em">      . ?zrH)O@@@@@#BO8B/(%k/&gt;  ^])n|[&lt;ll!I!:.   . &gt;+ .                         </tspan>
+    <tspan x="25" dy="1.1em">      . ~q|0&amp;nqjqkUjjjqvq@@8u1, `i/Out|-!l~+`    . +&lt; .                         </tspan>
+    <tspan x="25" dy="1.1em">      . )cxg%@#Wgkpqn(uWMBWWq{llI.'i_-_&gt;lIi&quot;.    ..}, .                         </tspan>
+    <tspan x="25" dy="1.1em">      . nztH0M@@@@@MHBkrI?v/-^.,~&quot; !/()?~I&quot;     .. [; .                         </tspan>
+    <tspan x="25" dy="1.1em">      . ,zz&amp;8#M@%%%M%@&amp;pO%@kn)-il;,&lt;xrt|[ll,.    'I},..                         </tspan>
+    <tspan x="25" dy="1.1em">          nj#%%@@@@@@%#@@@@0xMMnn)!l!(x|[!l:'  . ^{i^ .                         </tspan>
+    <tspan x="25" dy="1.1em">        ..(j8@@@@@@@@@@%$Hqt|t|}_+!:.l)r?Il' '.. -i ..                          </tspan>
+    <tspan x="25" dy="1.1em">        ..ljB##@@@@8gjn|)[}11~::,,&quot;' `~/+l, ';'.');.  ..                        </tspan>
+    <tspan x="25" dy="1.1em">      ...  [gMW%@%&amp;Wz}1(\(((){{&gt;,.   !|?I!^'::. .`&lt;+&lt;,  ..                      </tspan>
+    <tspan x="25" dy="1.1em">    ..   `I~vzM@@W0gggpnrrrttt(&lt;;.  'l[+Il;,`      .:++;  .                     </tspan>
+    <tspan x="25" dy="1.1em">  ..  ;[(xur}xOH&amp;&amp;0jUBjut|(}][}_lI::llIlllI&quot;..   ..   &quot;~-:  .                   </tspan>
+    <tspan x="25" dy="1.1em"> .  &gt;(t{}{{}[]}?tjUg8&amp;Hqkkzcrtrx{ll!ll!lII:`.       ..  &quot;__`  .                 </tspan>
+    <tspan x="25" dy="1.1em">. ^[{&lt;;:&gt;?~&gt;~&lt;!l&gt;+(z$#%$&amp;%&amp;c|ttt_I;lll&quot;&quot;,&quot;'.           .'  I?&gt;`  ..              </tspan>
+    <tspan x="25" dy="1.1em"> l)~:Ill&gt;]]-~&gt;&lt;&lt;i:ll-zOqjzxtrr|]IlllI:&quot;`.        ..'^' &quot;l&quot;  !_~^   .            </tspan>
+    <tspan x="25" dy="1.1em">&lt;(il_!i!&lt;+~&lt;iii&gt;II! ,|/|/((()]&lt;lllllllI:&quot;'.        .:;^ `l;.  I_~:   ..         </tspan>
+    <tspan x="25" dy="1.1em">(~&lt;]?~[-~~&lt;&gt;&gt;&lt;i!;I!`;ttt|(]i;;;IIIIIIIll!:.     ^,^'.l~+, &quot;I&quot;   ,~_i`  .        </tspan>
+    <tspan x="25" dy="1.1em">_-+1_{)[&gt;&lt;&lt;&gt;&gt;i!iI;!:&quot;/t|tt|]~+-]}}}-]?&gt;l;`      &quot;!{]: ;)t?:&quot;;I&quot;'  'l_~&quot;         </tspan>
+    <tspan x="25" dy="1.1em">&lt;?11{{]&lt;i&gt;&gt;&lt;&gt;i!&gt;!Ill`1zn|ttttrrrrrrrrr-^.      .'.l{+: ,}x|],&quot;il&quot;.   I?~'.      </tspan>
   </text>
 </svg>
