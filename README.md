@@ -1,12 +1,12 @@
+# ĐỨC-HUY (kunnic) NGUYỄN
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
   <!-- <source media="(prefers-color-scheme: light)" srcset="light_mode.svg"> -->
   <img alt="KunnicOS Neofetch" src="dark_mode.svg">
 </picture>
 
-# Nguyễn Đức Huy
 
-> **Kunnic** — computer science student, research-minded builder, music-tech dreamer, and professional enjoyer of elegant systems.
 
 ## Overview
 
