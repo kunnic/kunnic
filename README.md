@@ -1,4 +1,6 @@
-# ĐỨC-HUY (kunnic) NGUYỄN
+# Nguyễn Đức Huy
+
+### *kunnic* — A CS student interested in language, systems, and music.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
@@ -7,22 +9,24 @@
 
 ## Overview
 
-Nguyễn Đức Huy is a final-year Computer Science student at Ton Duc Thang University in Ho Chi Minh City, Vietnam, working across Python, research, and music technology. His core drive is not just to build things, but to build them with structure, taste, and intellectual weight.
+Nguyễn Đức Huy is a final-year Computer Science student at Ton Duc Thang University in Ho Chi Minh City, Vietnam. He is especially interested in Python, NLP, affective computing, and music technology.
 
-He is drawn to problems that sit between systems and meaning: NLP, affective computing, dataset design, and orchestral composition. Across all of them, the pattern is consistent - curiosity first, precision second, identity always.
+He likes work that is not just useful, but also clear, reliable, and well-designed. A big part of his profile is the gap between strong ideas and real execution: he often thinks like a designer of systems, while still trying to improve as a builder.
 
-## Profile
+## What He Works On
 
-Online, he goes by **Kunnic**. He tends to think like an architect before he thinks like an operator: strong on vision, systems, and standards, sometimes impatient with the slower mechanics of execution.
+- **Research-focused computing** — reading papers, designing datasets, planning annotation, and thinking about evaluation.
+- **Python-first development** — using modern Python tools to solve problems in a practical way.
+- **NLP and affective computing** — especially projects about language, emotion, and useful research output.
+- **Music technology** — orchestration, virtual instruments, and the meeting point between computer science and music.
 
-That tension defines much of his work. He is research-minded, self-critical, and unusually sensitive to coherence — in code, in ideas, and even in sound.
+## Selected Work
 
-## Current Work
-
-His main technical project is **VnLyricEmo**, a Vietnamese lyric emotion corpus shaped around full-song annotation and Plutchik's emotional framework. In parallel, he is building an orchestral medley project in Dorico, Cubase, and VSL — a more personal work, but one that reflects the same seriousness toward craft.
-
-Together, these projects show the direction clearly: part researcher, part builder, part music-tech obsessive.
+- **VnLyricEmo** — a Vietnamese lyric emotion corpus based on full-song annotation and Plutchik's emotion model.
+- **Orchestral Medley Project** — a long orchestral tribute made with Dorico, Cubase, and VSL.
+- **Chordie Clone in C** — a MIDI chord display tool written in pure C.
+- **Blank-Page Detection Research** — a synthetic computer-vision dataset for testing blank-page detection methods.
 
 ## Direction
 
-Huy is moving toward a future in research-oriented computer science, most likely around NLP, affective computing, or data-centric work. Longer term, the deeper ambition is to close the gap between computer science and music, and to grow into someone whose work feels both technically solid and unmistakably personal.
+In the short term, he wants to grow into serious research and data-focused work, most likely in NLP or affective computing. In the long term, he wants to build work that joins technical skill with artistic sense, instead of treating them as two separate worlds.
