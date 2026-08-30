@@ -364,7 +364,7 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
     J('lang_spoken_data', '  Spoken',      'Vietnamese, English')
     J('research_data',    '  Research',    'CV, ML, Affective Computing')
     J('hobbies_data',     '  Hobbies',     'Reading, Gaming, Coding')
-    J('email_data',       '  Email',       'official.nguyenduchuy@gmail.com')
+    J('email_data',       '  Email',       'nguyenduchuy@kunnic.com')
     J('github_data',      '  GitHub',      '@kunnic')
 
     # === Stats đơn giản — căn phải về cột TOTAL_W ===
