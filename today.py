@@ -404,7 +404,7 @@ if __name__ == "__main__":
     print("→ Đang đếm Lines of Code (lần đầu có thể mất vài phút)...")
     # Đặt force_cache=True NẾU bạn vừa thay đổi EXCLUDED_REPOS
     total_loc = loc_query(['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7,
-                          force_cache=True)
+                          force_cache=False)
 
     # 4. Đếm commits từ cache
     commit_data = commit_counter(7)
