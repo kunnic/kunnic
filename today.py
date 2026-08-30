@@ -62,7 +62,9 @@ def simple_request(func_name, query, variables):
                     request.status_code, request.text, QUERY_COUNT)
 
 
-def graph_repos_stars(count_type, owner_affiliation, cursor=None):
+def graph_repos_stars(count_type, owner_affiliation, cursor=None, edges=None):
+    if edges is None:
+        edges = []
     query_count('graph_repos_stars')
     query = '''
     query ($owner_affiliation: [RepositoryAffiliation], $login: String!, $cursor: String) {
@@ -79,13 +81,19 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None):
     if count_type == 'repos':
         return request.json()['data']['user']['repositories']['totalCount']
     elif count_type == 'stars':
-        return stars_counter(request.json()['data']['user']['repositories']['edges'])
+        edges += request.json()['data']['user']['repositories']['edges']
+        if request.json()['data']['user']['repositories']['pageInfo']['hasNextPage']:
+            return graph_repos_stars(count_type, owner_affiliation, 
+                                     request.json()['data']['user']['repositories']['pageInfo']['endCursor'], 
+                                     edges)
+        return stars_counter(edges)
 
 
 def stars_counter(data):
     total = 0
     for node in data:
-        total += node['node']['stargazers']['totalCount']
+        if node and node.get('node') and node['node'].get('stargazers'):
+            total += node['node']['stargazers'].get('totalCount', 0)
     return total
 
 
@@ -159,6 +167,7 @@ def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None,
 
 
 def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
+    edges = [node for node in edges if node and node.get('node') and node['node'].get('nameWithOwner')]
     cached = True
     os.makedirs('cache', exist_ok=True)
     filename = 'cache/' + hashlib.sha256(USER_NAME.encode('utf-8')).hexdigest() + '.txt'
@@ -221,8 +230,9 @@ def flush_cache(edges, filename, comment_size):
     with open(filename, 'w') as f:
         f.writelines(data)
         for node in edges:
-            f.write(hashlib.sha256(node['node']['nameWithOwner'].encode('utf-8')).hexdigest()
-                    + ' 0 0 0 0\n')
+            if node and node.get('node') and node['node'].get('nameWithOwner'):
+                f.write(hashlib.sha256(node['node']['nameWithOwner'].encode('utf-8')).hexdigest()
+                        + ' 0 0 0 0\n')
 
 
 def force_close_file(data, cache_comment):
